@@ -12,8 +12,6 @@ from submain import (Business,TransactionInputForm,ProductEditForm,AddTransactio
 from datetime import datetime,timedelta,date
 from PIL import Image
 import io
-import streamlit_authenticator as stauth
-from streamlit_authenticator import yaml,SafeLoader
 import pytz
 
 TzaTimeZone = pytz.timezone('Africa/Dar_es_Salaam')
