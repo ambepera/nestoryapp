@@ -1,0 +1,192 @@
+/* Hide Footer */
+footer.css-1q1n0ol.egzxvld0,
+footer.css-qri22k.egzxvld0 {
+  visibility: hidden;
+}
+
+/* Field selection stylish*/
+div.css-12ttj6m.epcbefy1 span {
+  background-color: #cda47a;
+  color: white;
+}
+/*Top header-Introduction Template*/
+.TopIntro {
+  background-color: #339476;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Submitt button */
+button.css-1cpxqw2.edgvbvh5,
+button.css-1cpxqw2 {
+  width: 100%;
+  background-color: #876d97;
+  color: lightcyan;
+}
+
+button.css-1cpxqw2.edgvbvh5:hover,
+button.css-1cpxqw2 {
+  width: 100%;
+  background-color: green;
+  border-color: green;
+}
+button.css-1cpxqw2.edgvbvh5,
+button.css-1cpxqw2::after {
+  width: 100%;
+  background-color: #339476;
+  border-color: #339476;
+}
+
+/* Download button */
+
+div.row-widget.stDownloadButton > button.css-1cpxqw2.edgvbvh9 {
+  background-color: rgb(80, 200, 80);
+  color: white;
+  width: 100%;
+}
+div.row-widget.stDownloadButton > button.css-1cpxqw2.edgvbvh9:hover {
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+
+/* Profile Picture*/
+
+.head {
+  background-color: #5d781b;
+  color: #eaebed;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.profile {
+  background-color: #80856e;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+img {
+  height: 40vh;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Start Table styling*/
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  height: fit-content;
+  /* overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0.15); */
+}
+th.col_heading.level0.col0.css-a51556.edw49t11,
+th.col_heading.level0.col1.css-a51556.edw49t11,
+th.col_heading.level0.col2.css-a51556.edw49t11,
+th.col_heading.level0.col3.css-a51556.edw49t11,
+th.col_heading.level0.col4.css-a51556.edw49t11,
+th.col_heading.level0.col5.css-a51556.edw49t11,
+th.col_heading.level0.col6.css-a51556.edw49t11,
+th.col_heading.level0.col7.css-a51556.edw49t11,
+th.col_heading.level0.col8.css-a51556.edw49t11,
+th.col_heading.level0.col9.css-a51556.edw49t11 {
+  color: #f3f3f3;
+}
+table thead tr {
+  background-color: grey;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+table th,
+table td {
+  padding: 8px 10px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type() {
+  border-bottom: 2px solid #009879;
+}
+table tbody tr.active-row {
+  font-weight: bold;
+}
+
+/* End Table styling*/
+
+#bal_hl {
+  border-style: solid;
+  border-color: goldenrod;
+  color: goldenrod;
+}
+
+/* Metrices style */
+div.css-12w0qpk.e1tzin5v2 > div.css-ocqkz7.e1tzin5v4 {
+  color: white;
+  border-style: solid;
+  background-color: #1f4e48;
+  border-color: #1f4e48;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+[data-testid="metric-container"] {
+  color: #1f4e48;
+  border-style: dotted;
+  background-color: rgba(255, 43, 43, 0.09);
+  border-color: darkolivegreen;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+[data-testid="stMetricLabel"] {
+  color: #1f4e48;
+  font-size: 20px;
+}
+
+[data-testid="stMetricValue"] {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.PL_MainHeader {
+  text-align: center;
+  align-self: center;
+  color: #009879;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.PL_SecondHeader {
+  text-align: center;
+  align-self: center;
+  color: #1f4e48;
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+}
+.PL_ThirdHeader {
+  text-align: center;
+  align-self: center;
+  color: #009879;
+  margin-top: 0px;
+  font-size: 1.5rem;
+}
