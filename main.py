@@ -25,10 +25,10 @@ st.set_page_config(page_title="Nestory Business App",
                    initial_sidebar_state="expanded")
 
 # Images
-Author = Image.open("./Pictures/aloyce.jpg")
-BackImage = Image.open("./Pictures/Background.jpg")
-ProductsImage = Image.open("./Pictures/ProductsImage.jpg")
-TransTypesImage = Image.open("./Pictures/TransactionTypesImage.jpg")
+Author = Image.open("aloyce.jpg")
+BackImage = Image.open("Background.jpg")
+ProductsImage = Image.open("ProductsImage.jpg")
+TransTypesImage = Image.open("TransactionTypesImage.jpg")
 
 Now = datetime.now(TzaTimeZone).strftime("%d %B %Y | %a %I : %M %p ")
 Today = date.today()
