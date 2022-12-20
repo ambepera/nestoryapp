@@ -603,7 +603,7 @@ def TransactionInputForm():
                             # Check if the balance of product units do not exceed the available balance
                                 TotalBal = Check_Bal()       
                                 if float(ItemQ) <= TotalBal:
-                                    st.write(CustomerSupplier[0])
+                                    
                                     AddTransaction(a=id,b=Item_name,c= -abs(ItemQ),d=UnitPrice,e=ActionType[0],
                                                 f=TransDateNotime,g=ItemMeasure,h= -abs(TotalValue),i=description,j=TrnsDate,k=CustomerSupplier[0])
                                     st.success(f" The {ActionType[0]} for {Item_name} has been recorded successful!")
