@@ -576,7 +576,7 @@ def TransactionInputForm():
 
             Item_name = Itemname[0]
             #Check if all fields are completed
-            if len(Itemname) == 1 and len(ItemQ) > 0 and len(UnitPrice) > 0 and len(ActionType) == 1 and len(ItemMeasure) == 1 and len(description) > 0:
+            if len(Itemname) == 1 and len(ItemQ) > 0 and len(UnitPrice) > 0 and len(ActionType) == 1 and len(ItemMeasure) == 1 and len(description) > 0 and len(CustomerSupplier) == 1 :
                 
                  # check if numbers are filled and not TEXT
                 if isnumber(num=ItemQ) and isnumber(num=UnitPrice):
