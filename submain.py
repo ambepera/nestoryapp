@@ -1086,7 +1086,6 @@ def ReceivablesColloectionForm():
             pass 
 
     SelDebtor = debtorsel.multiselect("Select A Debtor Who has Settled Outstanding",options=Debtors)
-    st.write(SelDebtor)
       
     # Record Receivable Amount after sale on Credit
     def UpdateReceivable_Recovery():
