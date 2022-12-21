@@ -595,6 +595,7 @@ def TransactionInputForm():
                     if "Credit" in ActionType[0]  and len(CustomerSupplier) != 1:
                         st.warning(f"Since the transaction is: {ActionType[0]}! Record the name of Customer or Supplier Above!")     
                     else:
+                        CustomerSupplier = CustomerSupplier[0].replace("['", "").replace("']", "")
                         if "Sale" in ActionType[0]:
 
                             AvailProductsStocks = Business.SelectionFromTable(self=Business,tablename="StocksTable",colName="ItemName")
