@@ -1063,6 +1063,8 @@ def DeleteExpensesForm():
 
         if sub_btn:
             Business.DeleteItem(self=Business,tablename="ExpensesTable",refcol="ID",refval=ID)
+            Business.DeleteItem(self=Business,tablename="CashAccount",refcol="ID",refval=ID)
+            Business.DeleteItem(self=Business,tablename="PayablesAccount",refcol="ID",refval=ID)
             st.warning(f"The Expense: {Expense_Name[0]} has been DELETED succesfuly!")  
 
 # Collecting Receivables Form
